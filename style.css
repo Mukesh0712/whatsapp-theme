@@ -1,0 +1,21 @@
+.theme-container{
+    width: 30%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-container{
+    border: 2px solid green;
+    background: #128C7E;
+    height: 150px;
+
+}
+
+.second-container{
+    border: 2px solid grey;
+    height: 450px;
+
+}
