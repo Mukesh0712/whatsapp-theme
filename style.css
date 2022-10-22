@@ -8,7 +8,7 @@ body{
 
 .theme-container{
     width: 30%;
-    height: 790px;
+    height: 690px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -19,7 +19,11 @@ body{
 .first-container{
     background: #128C7E;
     height: 90px;
+}
 
+.first-container-dark{
+   background: #075E54;
+   height: 90px;
 }
 
 .top{
@@ -32,21 +36,21 @@ body{
     color: white;
     width: 20%;
     padding: 5px;
-
+    font-weight: 700;
 }
 
 .icons{
-    width: 30%;
     padding: 2px;
     display: flex;
-    margin-left: 220px;    
+    margin-left: 120px; 
 }
 
 .icon{
     width: 20%;
     padding: 5px;
-    margin: 0 10px 0 10px;
+    margin: 0 11px 0 10px;
     color: white;
+    cursor: pointer;
 }
 
 .bottom{
@@ -61,7 +65,11 @@ body{
 .cam-icon{
     width: 5%;
     padding: 5px;
+    cursor: pointer;
+}
 
+.cam-icon:hover{
+    border-bottom: 2px solid white;
 }
 
 .title-container{
@@ -70,12 +78,22 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-weight: 700;
+}
 
+.sub-titles:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
 }
 
 .second-container{
-    border: 2px solid grey;
     height: 600px;
+}
+
+.second-container-dark{
+    height: 600px;
+    background: #111111;
+    color: white;
 }
 
 .chat-container{
@@ -92,24 +110,25 @@ body{
 
 .profile img{
     width: 40px;
-
+    cursor: pointer;
 }
 
 .chats{
     width: 250px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .mute-pin{
-    width: 65px;
+    width: 30px;
     padding: 5px;
-    margin-left: 5px;
+    margin-left: 40px;
 }
 
 .mute-pin-icon{
     width: 17px;
     margin-left: 10px;
     margin-top: 10px;
-
+    cursor: pointer;
 }
