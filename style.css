@@ -3,7 +3,6 @@ body{
     padding: 0;
     font-weight: 400;
     font-family: sans-serif;
-    
 }
 
 .theme-container{
@@ -14,6 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    border: 1px solid #075E54;
 }
 
 .first-container{
